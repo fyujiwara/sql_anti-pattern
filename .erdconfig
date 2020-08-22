@@ -1,0 +1,24 @@
+title: SQL Anti-Pattern
+notation: simple
+attributes:
+  - content
+  - foreign_key
+  - inheritance
+disconnected: true
+filename: db/erd
+filetype: png
+indirect: true
+inheritance: false
+markup: true
+orientation: horizontal
+polymorphism: false
+sort: true
+warn: true
+exclude:
+  - ActiveRecord::SchemaMigration
+  - ActiveRecord::InternalMetadata
+only: null
+only_recursion_depth: null
+prepend_primary: false
+cluster: false
+splines: spline
