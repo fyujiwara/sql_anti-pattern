@@ -1,5 +1,7 @@
 class Product < ApplicationRecord
-  validates :account_id, presence: true
+  has_many :contacts
+  has_many :accounts, through: :contacts
+
   validates :product_name, presence: true
 
 end
